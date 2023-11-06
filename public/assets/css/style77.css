@@ -1,0 +1,171 @@
+
+html {
+	height: 100%;
+    
+}
+body {
+	background-color: #dfe2db;
+	color: rgb(0, 0, 0);
+	font-family: 'Mada', sans-serif;
+	font-size: 1rem;
+	height: 100%;
+	line-height: 1.5;
+	overflow-x: hidden;
+    text-align:center ;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+.form-control {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    height: 40px;
+}
+.login-body {
+    display: table;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+.login-wrapper {
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+    background-color: #ffffff;
+}
+.main-wrapper {
+	width: 100%;
+	height: 100vh;
+	min-height: 100vh;
+}
+.login-wrapper .loginbox {
+    background-color: #fff;
+	display: flex;
+    margin: 1.875rem auto;
+    max-width: 800px;
+    min-height: 500px;
+    width: 100%;
+}
+
+.login-wrapper .loginbox .login-left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 400px;
+    border-radius: 5px 100px 100px 5px;
+    background-color: rgb(253, 245, 253);
+    box-shadow: 0 0 15px rgba(5, 2, 41, 0.61);
+    text-align:center ;
+}
+
+a{
+    color:#0d0111;
+    text-decoration: none;
+}
+.login-wrapper .loginbox .login-left .forgotpass a {
+	color: #a0a0a0;
+}
+.login-wrapper .loginbox .login-left .forgotpass a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.login-wrapper .loginbox .login-left .dont-have {
+	color: #adadad;
+	margin-top: 1.875rem;
+}
+.login-wrapper .loginbox .login-left.dont-have a {
+	color: rgb(2, 2, 2);
+}
+.login-wrapper .loginbox .login-left .dont-have a:hover {
+	text-decoration: underline;
+    color: #000;
+}
+
+
+.login-wrapper .loginbox .login-right {
+    align-items: center;
+    background: linear-gradient(180deg, hsl(248, 96%, 10%), hsl(248, 78%, 14%));
+    border-radius: 100px 5px 5px 100px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+    width: 400px;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    padding-right: 65px;
+    box-shadow: 0 0 15px rgba(5, 2, 41, 0.61);
+}
+input[name=password]{
+text-align:right;
+
+    }
+
+.login-wrapper .loginbox .login-left {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 400px;
+}
+.login-wrapper .loginbox .login-left .login-left-wrap {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.login-wrapper .loginbox .login-right h1 {
+    font-size:50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+.btn-primary {
+	background-color: hsl(248, 78%, 14%);
+    border: 1px solid hsl(248, 96%, 10%);
+}
+.btn-primary:hover
+{
+	background-color:hsl(248, 78%, 14%);
+	border: 1px solid hsl(0, 0%, 0%);
+}
+
+.form-control:focus {
+    color: #000000;
+    background-color: white;
+    border-color: hsl(248, 96%, 10%);
+    outline: 0;
+    box-shadow: none;
+}
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+ .primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 50%);
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color:hsl(248, 78%, 14%);
+	border: 1px solid  hsl(248, 96%, 10%);
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color:hsl(248, 78%, 14%);
+	border: 1px solid hsl(248, 96%, 10%);
+    box-shadow: none;
+}
+.login-right .img-fluid {
+    border-radius: 30px;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 0 0 30px rgba(141, 138, 138, 0.932);
+}

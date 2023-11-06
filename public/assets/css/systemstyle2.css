@@ -1,0 +1,138 @@
+.width30{
+    width:30%;
+}
+
+.float_right{
+    float:  right !important;
+}
+.custom_img{
+    width:150px;
+    height: 150px;
+}
+.card_title_center{
+    width: 100%;
+    text-align: center !important;
+}
+.custom_thead{
+    background-color: #000000;
+    color: #fff;
+}
+table .btn{ margin-top: 2px;}
+.custom_form{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 10px;
+    background-color:white;
+    margin-bottom: 7px;
+}
+h4.modal-title {
+    text-align: center;
+    width: 100%;
+}
+
+.modal {
+   
+    overflow: scroll;
+
+}
+.customh3{
+    font-size: 18px; text-align: center;color: brown
+}
+
+
+.main-header {
+	background: hsl(248, 78%, 14%);
+	border-bottom: 3px solid #000000;
+    /* box-shadow: 0 0 20px hsl(248, 96%, 10%); */
+	/* left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 0;*/
+	height: 70px; 
+    color: rgb(255, 255, 255);
+    
+    
+}
+.main-header .navbar-nav .nav-item .name {
+	float: right;
+	/* height: 50px; 
+	padding: 8px;
+	position: relative; 
+	text-align:start; */
+	/* width: 270px; */
+	/* z-index: 1;
+	transition: all 0.2s ease-in-out; */
+     font-size: 20px; 
+    color: rgb(255, 255, 255);
+}
+
+
+.main-header .navbar-nav .nav-item .logo img {
+    height:35px;
+    width: 35px;
+
+    
+}
+.main-sidebar {
+    background-color: hsl(248, 78%, 14%);
+    bottom: 0;
+    right: 0;
+    margin-top: 0;
+    position: fixed;
+    top: 63px;
+    transition: all 0.2s ease-in-out 0s;
+    /* width: 243px; */
+    /* z-index: 3; */
+}
+.sidebar  > ul > li > a:hover {
+background-color: #000;
+color: #fff;
+}
+/* .sidebar .mt-2 > ul > li.active > a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.sidebar .mt-2 li.active a {
+    background-color: #000;
+    color: #fff;
+} */
+.main-header > ul > li > a{
+    color: #fff;
+}
+.main-header .navbar-nav .nav-item .nav-link{
+   -webkit-text-fill-color: #fff;
+}
+
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.avatar {
+	position: relative;
+	display: inline-block;
+	width: 3rem;
+	height: 3rem
+}
+.avatar > img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+.dropdown-menu {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	transform-origin: left top 0;
+	box-shadow: inherit;
+	background-color: #fff;
+}
+.main-header .has-arrow .dropdown-toggle{
+    color: #fff;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left:-0.3cm;}
